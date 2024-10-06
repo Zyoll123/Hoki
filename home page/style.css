@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Poppins";
+}
+
+body {
+    background-color: rgba(255, 255, 0, 0.644);
+}
+
+.sidebar{
+    position: fixed;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    background: orange;
+}
+
+.sidebar header{
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+    background: orangered;
+    user-select: none;
+}
+
+.sidebar ul a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    font-size: 20px;
+    color: white;
+    padding-left: 40px;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(255,255,255,.1);
+    border-bottom: 1px solid black;
+    transition: .4s;
+}
+
+ul li:hover a{
+    padding-left: 50px;
+}
+
+.sidebar ul a i{
+    margin-right: 16px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 250px;
+    margin-top: 25px;
+}
+
+.kotak-menu{
+    width: 250px;
+    height: 300px;
+    border: 2px solid black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 8px;
+    background-color: azure;
+}
+
+.header-page{
+    position: relative;
+    justify-content: center;
+    margin-top: 2px;
+    margin-bottom: 22px;
+    margin-left: 740px;
+}
+
+.kotak-menu img {
+    width: 240px;
+    height: 200px;
+}
+
+.kotak-menu h1 {
+    text-align: left;
+    margin-top: 7px;
+    margin-bottom: 10px;
+    margin-left: 2px;
+}
+
+.kotak-menu h2 {
+    text-align: right;
+    margin-top: 4px;
+    margin-right: 4px;
+}
+
